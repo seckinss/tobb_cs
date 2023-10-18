@@ -145,7 +145,6 @@ public class Game extends JFrame {
 
             @Override
             public void keyTyped(KeyEvent e) {
-                System.out.println("klkl");
                 if(e.getKeyChar()==119){
                     refAirCraft.p.setLocation(refAirCraft.p.x, refAirCraft.p.y-10);
                     if(refAirCraft.p.y<0)
